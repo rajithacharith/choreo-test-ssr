@@ -5,5 +5,5 @@ export default function Page() {
   const referer = headersList.get('referer')
   const xCustomDomain = headersList.get('x-via-custom-domain')
  
-  return <div>Referer: {referer} <br/> Custom Domain : {xCustomDomain} </div>
+  return <div>Referer: {referer} <br/> Custom Domain : {headersList} </div>
 }
